@@ -1,10 +1,27 @@
-// var $ = require("jquery");
-// fullpage = require("fullpage.js");
+var domready = require('domready');
 
 
-// // $(document).ready(function(){
-// //    $('#fullpage').fullpage();
-// // });
+var app = {
+
+  /**
+   * Setup and configs
+   */
+  init: function() {
+
+  },
 
 
+  /**
+   * Renders a Ractive instance
+   */
+  render: require('./view/main.js')
 
+};
+
+
+domready(function() {
+
+  app.init();
+  app.render();
+
+});

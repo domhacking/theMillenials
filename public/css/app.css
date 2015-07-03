@@ -823,6 +823,10 @@ html, body {
       color: #ffffff;
       padding: 10px 5px; }
 
+.main {
+  height: 100%;
+  width: 100%; }
+
 #fullpage {
   height: 100%;
   width: 100%; }
@@ -838,7 +842,6 @@ html, body {
       background: url("../images/section1-background.jpeg");
       background-size: 20%; }
       #fullpage .section.section1 h1 {
-        background: url("../images/section1-mainLogo.png") no-repeat;
         background-size: 90% auto;
         background-position: -2% center;
         height: 150px;
@@ -856,6 +859,48 @@ html, body {
         color: #ffffff; }
 
 /*auto-generated*/
+/**
+ * @module:   nav
+ * @js:       ./source/js/module/nav/nav.js
+ * @html:     ./source/js/module/nav/nav.html
+ */
+.nav .nav {
+  background-color: #0A6E9B;
+  height: 40px;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2; }
+  .nav .nav .nav-logo {
+    background: url("../images/navLogo.png") no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 40px;
+    width: 60px;
+    display: inline-block;
+    padding: 5px; }
+  .nav .nav ul {
+    float: right;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: auto; }
+    .nav .nav ul li {
+      display: inline-block;
+      width: auto;
+      text-decoration: none;
+      color: #ffffff;
+      padding: 10px 5px; }
+
+/**
+ * @module:   sections
+ * @js:       ./source/js/module/sections/sections.js
+ * @html:     ./source/js/module/sections/sections.html
+ */
 /*------------------------------------*    #SPACING
 \*------------------------------------*/
 /**

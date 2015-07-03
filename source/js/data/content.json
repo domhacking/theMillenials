@@ -1,0 +1,28 @@
+{
+	"nav": [
+		{
+			"navItem":"about"
+		},
+		{
+			"navItem": "how"
+		},
+		{
+			"navItem": "contact"
+		}
+	],
+
+
+	"section1": [
+		{
+			"mainLogo" : "../images/section1-background.jpeg",
+			"headingSubContent": "Cos we are worth it"
+		}
+	]
+
+
+	// "sections":[
+
+
+	// ]
+
+}
