@@ -1,0 +1,73 @@
+{
+	"nav": [
+		{
+			"navItem":"about"
+		},
+		{
+			"navItem": "how"
+		},
+		{
+			"navItem": "contact"
+		}
+	],
+
+
+	"section1": [
+		{
+			"mainLogo" : "../images/section1-mainLogo1.png",
+			"headingSubContent": "Cos we are worth it"
+		}
+	],
+
+
+	"section2": [
+		{
+			"heading" 		: "Bla Bla Blas",
+			"content":[
+				{
+					"paragraph" 	: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
+				},
+				{
+					"paragraph" 	: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
+				},
+				{
+					"paragraph" 	: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
+				}
+			],
+		}
+	],
+
+	section3: [
+		{
+		"imageOneLiner" : "Power to people",
+		"subOneLiner"	: "finger tips of millions"
+		}
+	],
+
+	section4: [
+		{
+			"heading"		: "social today",
+
+			"facbookImage" 	: "../images/section1-background.jpeg",
+			"facbook" 		: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
+			"instagramImage": "../images/section1-background.jpeg",
+			"instagram" 	: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
+			"twitterImage" 	: "../images/section1-background.jpeg",
+			"twitter" 		: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
+
+		}
+
+	],
+
+	section5: [
+		{
+			"heading" 		: "another section",
+
+			"email"			: "lkdasfj",
+			"tel"			: "6456464",
+			"twitter"		: "6456464"
+		}
+
+	]
+
+}

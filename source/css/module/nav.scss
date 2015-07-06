@@ -6,7 +6,7 @@
 
 
 .nav{
-	background-color: $mainBlueLight;
+	background-color: $grey-background;
 	height: 40px;
 	margin: 0;
 	position: fixed;
@@ -15,35 +15,40 @@
 	width: 100%;
 	z-index: 2;
 
-	.nav-logo{
-		background: url('../images/navLogo.png') no-repeat;
-		background-size: 100%;
-		background-position: center;
-		display: inline-block;
-		height: 40px;
-		margin-left: 10px;
-		padding: 5px;
-		width: 60px;
-	}
 
 	ul{
 		float: right;
 		text-align: right;
 		padding: 0;
 		margin: 0;
-		display: inline-block;
+		display: table;
 		vertical-align: top;
-		width: auto;
+		width: 90%;
+		height: 100%;
+		margin-right: 5%;
+		margin-left: 5%;
 
+
+		.nav-logo{
+			background: url('../images/navLogo.png') no-repeat;
+			background-size: 100%;
+			background-position: center;
+			display: table-cell;
+			height: 40px;
+			padding: 5px;
+			width: 60px;
+			float: left;
+			vertical-align: middle;
+		}
 
 		li{
-			display: inline-block;
-			width: auto;
-			text-decoration: none;
 			color: $white;
+			display: table-cell;
+			font-weight: bold;
+			text-decoration: none;
 			padding: 10px 5px;
 			text-transform: uppercase;
-			font-weight: bold;
+			vertical-align: middle;
 
 		}
 	}
@@ -52,7 +57,21 @@
 
 @media screen and (min-width: 550px){
 	.nav{
-		height: 80px;
+		height: 70px;
+
+		ul{
+			.nav-logo{
+
+				background-size: 100% auto;
+				height: 70px;
+				width: 100px;
+			}
+
+			li{
+				width: 150px;
+				padding-right: 15px;
+			}
+		}
 	}
 }
 

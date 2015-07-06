@@ -802,7 +802,7 @@ html, body {
  * @html:     ./source/js/module/nav/nav.html
  */
 .nav {
-  background-color: #0A6E9B;
+  background-color: #313132;
   height: 40px;
   margin: 0;
   position: fixed;
@@ -810,35 +810,46 @@ html, body {
   left: 0;
   width: 100%;
   z-index: 2; }
-  .nav .nav-logo {
-    background: url("../images/navLogo.png") no-repeat;
-    background-size: 100%;
-    background-position: center;
-    display: inline-block;
-    height: 40px;
-    margin-left: 10px;
-    padding: 5px;
-    width: 60px; }
   .nav ul {
     float: right;
     text-align: right;
     padding: 0;
     margin: 0;
-    display: inline-block;
+    display: table;
     vertical-align: top;
-    width: auto; }
+    width: 90%;
+    height: 100%;
+    margin-right: 5%;
+    margin-left: 5%; }
+    .nav ul .nav-logo {
+      background: url("../images/navLogo.png") no-repeat;
+      background-size: 100%;
+      background-position: center;
+      display: table-cell;
+      height: 40px;
+      padding: 5px;
+      width: 60px;
+      float: left;
+      vertical-align: middle; }
     .nav ul li {
-      display: inline-block;
-      width: auto;
-      text-decoration: none;
       color: #ffffff;
+      display: table-cell;
+      font-weight: bold;
+      text-decoration: none;
       padding: 10px 5px;
       text-transform: uppercase;
-      font-weight: bold; }
+      vertical-align: middle; }
 
 @media screen and (min-width: 550px) {
   .nav {
-    height: 80px; } }
+    height: 70px; }
+    .nav ul .nav-logo {
+      background-size: 100% auto;
+      height: 70px;
+      width: 100px; }
+    .nav ul li {
+      width: 150px;
+      padding-right: 15px; } }
 
 /**
  * @module:   sections
@@ -865,13 +876,15 @@ html, body {
     background-position: center center;
     z-index: 1; }
   .section.section1 {
-    background-color: #313132; }
+    background-image: url("../images/mugs.jpeg"); }
     .section.section1 h1 {
       background-size: 90% auto;
       background-position: -2% center;
       height: 150px;
+      display: block;
       width: 100%;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      text-align: center; }
     .section.section1 p {
       text-align: center;
       color: #ffffff;
@@ -883,13 +896,19 @@ html, body {
       margin-left: -15px;
       color: #ffffff; }
   .section.section3 {
-    background-image: url("../images/cd-background-2.jpg"); }
+    background-image: url("../images/grapes.jpeg");
+    background-color: rgba(0, 0, 0, 0.5); }
   .section.section5 {
     background-image: url("../images/cd-background-2.jpg"); }
   .section .content {
     display: table-cell;
     vertical-align: middle;
     width: 100%; }
+    .section .content .content--container {
+      max-width: 600px;
+      margin: 0 auto; }
+      .section .content .content--container h2 {
+        text-align: center; }
 
 /*------------------------------------*    #SPACING
 \*------------------------------------*/

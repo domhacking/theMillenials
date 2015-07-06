@@ -31,15 +31,18 @@
 
 
 	&.section1{
-		background-color: $grey-background;
+		// background-color: $grey-background;
+		background-image: url('../images/mugs.jpeg');
 
 		h1{
 			// background: url('../images/section1-mainLogo.png') no-repeat;
 			background-size: 90% auto;
 			background-position: -2% center;
 			height: 150px;
+  			display: block;
 			width: 100%;
 			margin-bottom: 0;
+  			text-align: center;
 		}
 
 		p{
@@ -58,7 +61,8 @@
 	}
 
 	&.section3{
-		background-image: url('../images/cd-background-2.jpg');
+		background-image: url('../images/grapes.jpeg');
+		background-color: rgba(0,0,0,0.5);
 	}
 
 	&.section5{
@@ -70,6 +74,16 @@
 		display: table-cell;
 		vertical-align: middle;
 		width: 100%;
+
+
+		.content--container{
+			max-width: 600px;
+			margin: 0 auto;
+
+			h2{
+				text-align: center;
+			}
+		}
 	}
 }
 

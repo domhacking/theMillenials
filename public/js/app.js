@@ -28364,7 +28364,7 @@ module.exports={
 
 	"section1": [
 		{
-			"mainLogo" : "../images/section1-mainLogo2.png",
+			"mainLogo" : "../images/The-Millennials---PNG-01_03.png",
 			"headingSubContent": "Cos we are worth it"
 		}
 	],
@@ -28450,7 +28450,7 @@ modules['ui-nav'] = require('./nav/nav.js');modules['ui-sections'] = require('./
 module.exports = modules;
 
 },{"./nav/nav.js":11,"./sections/sections.js":13}],10:[function(require,module,exports){
-module.exports={"v":3,"t":[{"t":7,"e":"div","a":{"class":"nav"},"f":[{"t":7,"e":"div","a":{"class":"nav-logo"}}," ",{"t":7,"e":"ul","f":[{"t":4,"f":[{"t":7,"e":"li","f":[{"t":2,"r":"navItem"}]}],"n":52,"r":"nav"}]}]}]}
+module.exports={"v":3,"t":[{"t":7,"e":"div","a":{"class":"nav"},"f":[{"t":7,"e":"ul","f":[{"t":7,"e":"div","a":{"class":"nav-logo"}}," ",{"t":4,"f":[{"t":7,"e":"li","f":[{"t":2,"r":"navItem"}]}],"n":52,"r":"nav"}]}]}]}
 },{}],11:[function(require,module,exports){
 /**
  * @module:   nav
@@ -28470,7 +28470,7 @@ module.exports = Module.extend({
 });
 
 },{"../../data/content.json":7,"../abstract-module":8,"./nav.html":10}],12:[function(require,module,exports){
-module.exports={"v":3,"t":[{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section1 fixed-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"h1","a":{"alt":"The Millenials"},"f":[{"t":7,"e":"img","a":{"src":[{"t":2,"r":"mainLogo"}],"alt":""}}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"headingSubContent"}]}]}," ",{"t":7,"e":"div","a":{"class":"arrow"},"f":["arrow"]}]}],"r":"section1"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section2 scrolling-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"heading"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"paragraph"}]}],"r":"content"}," ",{"t":7,"e":"div","a":{"class":"section--image"}}]}]}],"r":"section2"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section3 fixed-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"imageOneLiner"}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"subOneLiner"}]}]}]}],"r":"section3"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section4 scrolling-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"heading"}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"facebookImage"}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"facebook"}]}]}]}],"r":"section4"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section5 fixed-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"heading"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"paragraph"}]}],"r":"content"}]}]}],"r":"section5"}]}
+module.exports={"v":3,"t":[{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section1 fixed-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h1","a":{"alt":"The Millenials"},"f":[{"t":7,"e":"img","a":{"src":[{"t":2,"r":"mainLogo"}],"alt":""}}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"headingSubContent"}]}]}]}," ",{"t":7,"e":"div","a":{"class":"arrow"},"f":["arrow"]}]}],"r":"section1"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section2 scrolling-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"heading"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"paragraph"}]}],"r":"content"}," ",{"t":7,"e":"div","a":{"class":"section--image"}}]}]}]}],"r":"section2"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section3 fixed-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"imageOneLiner"}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"subOneLiner"}]}]}]}]}],"r":"section3"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section4 scrolling-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"heading"}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"facebookImage"}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"facebook"}]}]}]}]}],"r":"section4"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section5 fixed-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"heading"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"paragraph"}]}],"r":"content"}]}]}]}],"r":"section5"}]}
 },{}],13:[function(require,module,exports){
 /**
  * @module:   sections
