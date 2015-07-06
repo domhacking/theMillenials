@@ -5,8 +5,8 @@
 -->
 
 
-{{# section1 }}
-	<div class="section section1">
+{{ # section1 }}
+	<div class="section section1 fixed-bg">
 
         <div class="content">
           <h1 alt="The Millenials"><img src="{{mainLogo}}" alt=""></h1>
@@ -20,16 +20,45 @@
 {{/}}
 
 
-<!-- {{#sections}}
-
-	<div class="section">
+{{ # section2 }}
+    <div class="section section2 scrolling-bg">
         <div class="content">
             <h2>{{heading}}</h2>
-            {{#each content}}
-            <p>{{paragraph}}</p>
+            {{# content}}
+                <p>{{paragraph}}</p>
             {{/each}}
-           
+            <div class="section--image"></div>
         </div>
     </div>
+{{/}}
 
-{{/}} -->
+{{ # section3 }}
+    <div class="section section3 fixed-bg">
+        <div class="content">
+            <h2>{{imageOneLiner}}</h2>
+            <p>{{subOneLiner}}</p>
+        </div>
+    </div>
+{{/}}
+
+
+{{ # section4 }}
+    <div class="section section4 scrolling-bg">
+        <div class="content">
+            <h2>{{heading}}</h2>
+            <p>{{facebookImage}}</p>
+            <p>{{facebook}}</p>  
+        </div>
+    </div>
+{{/}}
+
+{{ #section5 }}
+    <div class="section section5 fixed-bg">
+        <div class="content">
+            <h2>{{heading}}</h2>
+            {{# content}}
+                <p>{{paragraph}}</p>
+            {{/}}
+        </div>
+    </div>
+{{/}}

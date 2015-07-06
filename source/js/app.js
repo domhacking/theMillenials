@@ -1,4 +1,6 @@
 var domready = require('domready');
+var fullpage = require('fullpage.js');
+var jquery = require('jquery');
 
 
 var app = {

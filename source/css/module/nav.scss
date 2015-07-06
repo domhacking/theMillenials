@@ -5,46 +5,57 @@
  */
 
 
-@include module("nav") { 
-  // :)
+.nav{
+	background-color: $mainBlueLight;
+	height: 40px;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
 
-	.nav{
-		background-color: $mainBlueLight;
+	.nav-logo{
+		background: url('../images/navLogo.png') no-repeat;
+		background-size: 100%;
+		background-position: center;
+		display: inline-block;
 		height: 40px;
+		margin-left: 10px;
+		padding: 5px;
+		width: 60px;
+	}
+
+	ul{
+		float: right;
+		text-align: right;
+		padding: 0;
 		margin: 0;
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		z-index: 2;
+		display: inline-block;
+		vertical-align: top;
+		width: auto;
 
-		.nav-logo{
-			background: url('../images/navLogo.png') no-repeat;
-			background-size: 100%;
-			background-position: center;
-			height: 40px;
-			width: 60px;
-			display: inline-block;
-			padding: 5px;
-		}
 
-		ul{
-			float: right;
-			text-align: right;
-			padding: 0;
-			margin: 0;
+		li{
 			display: inline-block;
-			vertical-align: top;
 			width: auto;
+			text-decoration: none;
+			color: $white;
+			padding: 10px 5px;
+			text-transform: uppercase;
+			font-weight: bold;
 
-
-			li{
-				display: inline-block;
-				width: auto;
-				text-decoration: none;
-				color: $white;
-				padding: 10px 5px;
-			}
 		}
 	}
+}
+
+
+@media screen and (min-width: 550px){
+	.nav{
+		height: 80px;
+	}
+}
+
+
+@include module("nav") {
 }

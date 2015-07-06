@@ -791,6 +791,16 @@ html, body {
   padding: 0;
   list-style: none; }
 
+.main {
+  height: 100%;
+  width: 100%; }
+
+/*auto-generated*/
+/**
+ * @module:   nav
+ * @js:       ./source/js/module/nav/nav.js
+ * @html:     ./source/js/module/nav/nav.html
+ */
 .nav {
   background-color: #0A6E9B;
   height: 40px;
@@ -804,10 +814,11 @@ html, body {
     background: url("../images/navLogo.png") no-repeat;
     background-size: 100%;
     background-position: center;
-    height: 40px;
-    width: 60px;
     display: inline-block;
-    padding: 5px; }
+    height: 40px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 60px; }
   .nav ul {
     float: right;
     text-align: right;
@@ -821,86 +832,65 @@ html, body {
       width: auto;
       text-decoration: none;
       color: #ffffff;
-      padding: 10px 5px; }
+      padding: 10px 5px;
+      text-transform: uppercase;
+      font-weight: bold; }
 
-.main {
-  height: 100%;
-  width: 100%; }
-
-#fullpage {
-  height: 100%;
-  width: 100%; }
-  #fullpage .section {
-    height: 100%;
-    width: 100%;
-    display: table;
-    padding: 10px; }
-    #fullpage .section .content {
-      display: table-cell;
-      vertical-align: middle; }
-    #fullpage .section.section1 {
-      background: url("../images/section1-background.jpeg");
-      background-size: 20%; }
-      #fullpage .section.section1 h1 {
-        background-size: 90% auto;
-        background-position: -2% center;
-        height: 150px;
-        width: 100%;
-        margin-bottom: 0; }
-      #fullpage .section.section1 p {
-        text-align: center;
-        color: #ffffff;
-        font-weight: bold; }
-      #fullpage .section.section1 .arrow {
-        position: absolute;
-        bottom: 2%;
-        left: 50%;
-        margin-left: -15px;
-        color: #ffffff; }
-
-/*auto-generated*/
-/**
- * @module:   nav
- * @js:       ./source/js/module/nav/nav.js
- * @html:     ./source/js/module/nav/nav.html
- */
-.nav .nav {
-  background-color: #0A6E9B;
-  height: 40px;
-  margin: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 2; }
-  .nav .nav .nav-logo {
-    background: url("../images/navLogo.png") no-repeat;
-    background-size: 100%;
-    background-position: center;
-    height: 40px;
-    width: 60px;
-    display: inline-block;
-    padding: 5px; }
-  .nav .nav ul {
-    float: right;
-    text-align: right;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-    vertical-align: top;
-    width: auto; }
-    .nav .nav ul li {
-      display: inline-block;
-      width: auto;
-      text-decoration: none;
-      color: #ffffff;
-      padding: 10px 5px; }
+@media screen and (min-width: 550px) {
+  .nav {
+    height: 80px; } }
 
 /**
  * @module:   sections
  * @js:       ./source/js/module/sections/sections.js
  * @html:     ./source/js/module/sections/sections.html
  */
+.section {
+  height: 100%;
+  width: 100%;
+  display: table;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  z-index: 1; }
+  .section.scrolling-bg {
+    position: relative;
+    min-height: 100%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    z-index: 2; }
+  .section.fixed-bg {
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1; }
+  .section.section1 {
+    background-color: #313132; }
+    .section.section1 h1 {
+      background-size: 90% auto;
+      background-position: -2% center;
+      height: 150px;
+      width: 100%;
+      margin-bottom: 0; }
+    .section.section1 p {
+      text-align: center;
+      color: #ffffff;
+      font-weight: bold; }
+    .section.section1 .arrow {
+      position: absolute;
+      bottom: 2%;
+      left: 50%;
+      margin-left: -15px;
+      color: #ffffff; }
+  .section.section3 {
+    background-image: url("../images/cd-background-2.jpg"); }
+  .section.section5 {
+    background-image: url("../images/cd-background-2.jpg"); }
+  .section .content {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%; }
+
 /*------------------------------------*    #SPACING
 \*------------------------------------*/
 /**

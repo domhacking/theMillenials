@@ -2,3 +2,11 @@ html, body {
   width: 100%;
   height: 100%;
 }
+
+
+
+
+//z-index - order the elements from the lowest z-index(left) to the highest(right)
+
+$main-elements: main-content, navigation;
+$bg-elements: fixed-bg, scrolling-bg;

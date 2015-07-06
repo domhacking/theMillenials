@@ -4,6 +4,74 @@
  * @html:     ./source/js/module/sections/sections.html
  */
 
+.section{
+	height: 100%;
+	width: 100%;
+	display: table;
+	padding: 10px;
+	border-bottom: 2px solid black;
+	z-index: index($main-elements, main-content);
+
+	&.scrolling-bg{
+		position: relative;
+		min-height: 100%;
+		box-shadow: 0 0 50px rgba(#000, 0.5);
+		z-index: index($bg-elements, scrolling-bg);
+	}
+
+	&.fixed-bg{
+		min-height: 100%;
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center center;
+		z-index: index($bg-elements, fixed-bg);
+	}
+
+
+
+	&.section1{
+		background-color: $grey-background;
+
+		h1{
+			// background: url('../images/section1-mainLogo.png') no-repeat;
+			background-size: 90% auto;
+			background-position: -2% center;
+			height: 150px;
+			width: 100%;
+			margin-bottom: 0;
+		}
+
+		p{
+			text-align: center;
+			color: $white;
+			font-weight: bold;
+		}
+
+		.arrow{
+			position: absolute;
+			bottom: 2%;
+			left: 50%;
+			margin-left: -15px;
+			color: $white;
+		}
+	}
+
+	&.section3{
+		background-image: url('../images/cd-background-2.jpg');
+	}
+
+	&.section5{
+		background-image: url('../images/cd-background-2.jpg');
+	}
+
+
+	.content{
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+	}
+}
 
 @include module("sections") { 
   // :)
