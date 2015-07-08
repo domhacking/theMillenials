@@ -47,14 +47,6 @@
 			color: $white;
 			font-weight: bold;
 		}
-
-		.arrow{
-			position: absolute;
-			bottom: 2%;
-			left: 50%;
-			margin-left: -15px;
-			color: $white;
-		}
 	}
 
 	&.section3{
@@ -70,6 +62,15 @@
 		display: table-cell;
 		vertical-align: middle;
 		width: 100%;
+	}
+
+	.arrow{
+		position: absolute;
+		bottom: 2%;
+		left: 50%;
+		margin-left: -15px;
+		color: red;
+		cursor: pointer;
 	}
 }
 

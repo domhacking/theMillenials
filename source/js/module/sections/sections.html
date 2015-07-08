@@ -6,22 +6,21 @@
 
 
 {{ # section1 }}
-	<div class="section section1 fixed-bg">
+	<div class="section section1 fixed-bg" >
 
         <div class="content">
           <h1 alt="The Millenials"><img src="{{mainLogo}}" alt=""></h1>
           <p>{{headingSubContent}}</p>
         </div>
 
-        <div class="arrow">arrow</div>
+        <div class="arrow" id="arrow">arrow</div>
 
     </div>
-
 {{/}}
 
 
 {{ # section2 }}
-    <div class="section section2 scrolling-bg">
+    <div class="section section2 scrolling-bg" id="about">
         <div class="content">
             <h2>{{heading}}</h2>
             {{# content}}
@@ -29,36 +28,44 @@
             {{/each}}
             <div class="section--image"></div>
         </div>
+
+         <div class="arrow" id="arrow2">arrow</div>
     </div>
 {{/}}
 
 {{ # section3 }}
-    <div class="section section3 fixed-bg">
+    <div class="section section3 fixed-bg" id="section3">
         <div class="content">
             <h2>{{imageOneLiner}}</h2>
             <p>{{subOneLiner}}</p>
         </div>
+
+        <div class="arrow" id="arrow3">arrow</div>
     </div>
 {{/}}
 
 
 {{ # section4 }}
-    <div class="section section4 scrolling-bg">
+    <div class="section section4 scrolling-bg" id="how">
         <div class="content">
             <h2>{{heading}}</h2>
             <p>{{facebookImage}}</p>
             <p>{{facebook}}</p>  
         </div>
+
+        <div class="arrow" id="arrow4">arrow</div>
     </div>
 {{/}}
 
-{{ #section5 }}
-    <div class="section section5 fixed-bg">
+{{ # section5 }}
+    <div class="section section5 fixed-bg" id="contact">
         <div class="content">
             <h2>{{heading}}</h2>
             {{# content}}
                 <p>{{paragraph}}</p>
             {{/}}
         </div>
+
+        <div class="arrow" id="arrow5">arrow</div>
     </div>
 {{/}}
