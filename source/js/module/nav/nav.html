@@ -6,9 +6,8 @@
 
 <div class="nav">
     <ul>
-    	<div class="nav-logo"></div>
-        {{#each nav}}
-            <li>{{navItem}}</li>
+    	{{#each nav}}
+            <li><a href="#{{navItem}}">{{navItem}}</a></li>
         {{/each}}
     </ul>
 </div>
