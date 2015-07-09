@@ -28,6 +28,20 @@
  * Read more avaiable properties:
  * https://github.com/inuitcss/base.headings/blob/master/_base.headings.scss
  */
+@font-face {
+  font-family: "Signika-Bold";
+  src: url("../fonts/Signika-Bold.eot");
+  src: url("../fonts/Signika-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Signika-Bold.woff2") format("woff2"), url("../fonts/Signika-Bold.woff") format("woff"), url("../fonts/Signika-Bold.ttf") format("truetype"), url("../fonts/Signika-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Signika-Regular";
+  src: url("../fonts/Signika-Regular.eot");
+  src: url("../fonts/Signika-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Signika-Regular.woff2") format("woff2"), url("../fonts/Signika-Regular.woff") format("woff"), url("../fonts/Signika-Regular.ttf") format("truetype"), url("../fonts/Signika-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 h1, h2, h3, p, ul, li {
   padding: 0;
   margin: 0; }
@@ -908,7 +922,8 @@ html, body {
       max-width: 600px;
       margin: 0 auto; }
       .section .content .content--container h2 {
-        text-align: center; }
+        text-align: center;
+        font-family: "Signika-Bold"; }
 
 /*------------------------------------*    #SPACING
 \*------------------------------------*/
