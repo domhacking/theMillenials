@@ -534,7 +534,7 @@ table,
 fieldset, figure,
 pre {
   margin-bottom: 24px;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.71429rem; }
 
 /**
  * Where `margin-left` is concerned we want to try and indent certain elements
@@ -542,7 +542,7 @@ pre {
  */
 ul, ol, dd {
   margin-left: 48px;
-  margin-left: 3rem; }
+  margin-left: 3.42857rem; }
 
 /*------------------------------------*    #PAGE
 \*------------------------------------*/
@@ -561,9 +561,9 @@ ul, ol, dd {
  *    render text using sub-pixel anti-aliasing.
  */
 html {
-  font-size: 1em;
+  font-size: 0.875em;
   /* [1] */
-  line-height: 1.5;
+  line-height: 1.71429;
   /* [1] */
   background-color: #ffffff;
   color: #151515;
@@ -587,9 +587,9 @@ html {
  * of a document slightly larger: en.wikipedia.org/wiki/Lede_(news)
  */
 .lede {
-  font-size: 18px;
+  font-size: 15.75px;
   font-size: 1.125rem;
-  line-height: 1.33333; }
+  line-height: 1.52381; }
 
 /*------------------------------------*    #HEADINGS
 \*------------------------------------*/
@@ -598,32 +598,32 @@ html {
  */
 h1 {
   font-size: 36px;
-  font-size: 2.25rem;
+  font-size: 2.57143rem;
   line-height: 1.33333; }
 
 h2 {
   font-size: 30px;
-  font-size: 1.875rem;
+  font-size: 2.14286rem;
   line-height: 1.6; }
 
 h3 {
   font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 1.71429rem;
   line-height: 1; }
 
 h4 {
   font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 1.42857rem;
   line-height: 1.2; }
 
 h5 {
   font-size: 16px;
-  font-size: 1rem;
+  font-size: 1.14286rem;
   line-height: 1.5; }
 
 h6 {
   font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.71429; }
 
 /*------------------------------------*    #IMAGES
@@ -823,47 +823,57 @@ html, body {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 2; }
+  z-index: 5; }
+  .nav .nav-logo {
+    background: url("../images/navLogo.png") no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: inline-block;
+    height: 40px;
+    padding: 5px;
+    width: 60px;
+    float: left;
+    vertical-align: middle; }
   .nav ul {
+    display: inline-block;
     float: right;
     text-align: right;
     padding: 0;
     margin: 0;
-    display: table;
     vertical-align: top;
-    width: 90%;
+    width: auto;
     height: 100%;
-    margin-right: 5%;
-    margin-left: 5%; }
-    .nav ul .nav-logo {
-      background: url("../images/navLogo.png") no-repeat;
-      background-size: 100%;
-      background-position: center;
-      display: table-cell;
-      height: 40px;
-      padding: 5px;
-      width: 60px;
-      float: left;
-      vertical-align: middle; }
+    margin-right: 2%;
+    margin-left: 2%; }
     .nav ul li {
-      color: #ffffff;
-      display: table-cell;
-      font-weight: bold;
-      text-decoration: none;
-      padding: 10px 5px;
-      text-transform: uppercase;
-      vertical-align: middle; }
+      list-style: none;
+      display: inline-block;
+      padding: 10px 5px; }
+      .nav ul li a {
+        width: auto;
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: "Signika-Bold"; }
 
 @media screen and (min-width: 550px) {
   .nav {
-    height: 70px; }
-    .nav ul .nav-logo {
+    height: 60px; }
+    .nav .nav-logo {
+      margin-left: 15px;
       background-size: 100% auto;
-      height: 70px;
+      height: 60px;
       width: 100px; }
-    .nav ul li {
-      width: 150px;
-      padding-right: 15px; } }
+    .nav ul {
+      margin-right: 15px;
+      margin-left: 15px; }
+      .nav ul li {
+        margin-top: 8px;
+        width: 100px;
+        padding-right: 15px; }
+        .nav ul li a {
+          margin-top: 10px;
+          font-size: 16px; } }
 
 /**
  * @module:   sections
@@ -877,11 +887,26 @@ html, body {
   padding: 10px;
   border-bottom: 2px solid black;
   z-index: 1; }
+  .section p {
+    text-align: center;
+    font-family: "Signika-Regular"; }
+  .section h2 {
+    text-align: center;
+    font-family: "Signika-Bold";
+    text-decoration: underline; }
+  .section h3 {
+    text-align: center; }
+  .section img {
+    text-align: center;
+    display: block;
+    margin: 0 auto; }
   .section.scrolling-bg {
     position: relative;
     min-height: 100%;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     z-index: 2; }
+    .section.scrolling-bg h2 {
+      color: #313132; }
   .section.fixed-bg {
     min-height: 100%;
     background-size: cover;
@@ -889,31 +914,61 @@ html, body {
     background-repeat: no-repeat;
     background-position: center center;
     z-index: 1; }
+    .section.fixed-bg h2 {
+      text-align: center;
+      font-family: "Signika-Bold";
+      color: #FFFB7F; }
   .section.section1 {
-    background-image: url("../images/mugs.jpeg"); }
+    background-image: url("../images/mugs.jpg"); }
     .section.section1 h1 {
       background-size: 90% auto;
       background-position: -2% center;
-      height: 150px;
+      height: 110px;
       display: block;
       width: 100%;
       margin-bottom: 0;
       text-align: center; }
     .section.section1 p {
-      text-align: center;
-      color: #ffffff;
       font-weight: bold; }
     .section.section1 .arrow {
       position: absolute;
-      bottom: 2%;
+      background: url("../images/arrow.png") no-repeat;
+      background-size: 100% 100%;
+      height: 12px;
+      width: 30px;
+      bottom: 3%;
       left: 50%;
       margin-left: -15px;
       color: #ffffff; }
   .section.section3 {
-    background-image: url("../images/grapes.jpeg");
+    background-image: url("../images/grapes.jpg");
     background-color: rgba(0, 0, 0, 0.5); }
+    .section.section3 p {
+      color: #ffffff; }
   .section.section5 {
     background-image: url("../images/cd-background-2.jpg"); }
+    .section.section5 .content {
+      width: 100%; }
+      .section.section5 .content .contentLine--container .contentLine {
+        margin: 0 auto;
+        display: block;
+        width: 80%; }
+        .section.section5 .content .contentLine--container .contentLine a {
+          color: #ffffff;
+          display: inline-block;
+          text-decoration: none; }
+          .section.section5 .content .contentLine--container .contentLine a img {
+            display: inline-block;
+            height: 20px;
+            width: auto; }
+          .section.section5 .content .contentLine--container .contentLine a p {
+            display: inline-block;
+            margin-bottom: 10px; }
+    .section.section5 .footer {
+      width: 100%;
+      text-decoration: none;
+      color: black;
+      margin-bottom: 3px; }
   .section .content {
     display: table-cell;
     vertical-align: middle;
@@ -921,9 +976,21 @@ html, body {
     .section .content .content--container {
       max-width: 600px;
       margin: 0 auto; }
-      .section .content .content--container h2 {
-        text-align: center;
-        font-family: "Signika-Bold"; }
+
+@media screen and (min-width: 550px) {
+  .section.section4 .content--container {
+    max-width: 900px; }
+    .section.section4 .content--container .socialContainer {
+      text-align: center; }
+      .section.section4 .content--container .socialContainer .social {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        padding: 50px 20px; }
+        .section.section4 .content--container .socialContainer .social img {
+          padding-bottom: 15px; }
+        .section.section4 .content--container .socialContainer .social p {
+          text-align: left; } }
 
 /*------------------------------------*    #SPACING
 \*------------------------------------*/

@@ -13,7 +13,7 @@
                 <p>{{headingSubContent}}</p>
             </div>
         </div>
-        <div class="arrow">arrow</div>
+        <div class="arrow"></div>
     </div>
 
 {{/}}
@@ -26,7 +26,7 @@
                 <h2>{{heading}}</h2>
                 {{# content}}
                     <p>{{paragraph}}</p>
-                {{/each}}
+                {{/}}
                 <div class="section--image"></div>
             </div>
         </div>
@@ -38,7 +38,9 @@
         <div class="content">
             <div class="content--container">
                 <h2>{{imageOneLiner}}</h2>
-                <p>{{subOneLiner}}</p>
+                {{# content }}
+                    <p>{{subOneLiner}}</p>
+                {{/}}
             </div>
         </div>
     </div>
@@ -50,8 +52,17 @@
         <div class="content">
             <div class="content--container">
                 <h2>{{heading}}</h2>
-                <p>{{facebookImage}}</p>
-                <p>{{facebook}}</p>  
+                <div class="socialContainer">
+                    {{#content}}
+                        <div class="social">
+                            <img src="{{socialIcon}}" alt="">
+                            <h3>{{socialHeading}}</h3>
+                            {{#socialContent}}
+                                <p>{{paragraph}}</p>
+                            {{/}}
+                        </div>
+                    {{/}}
+                </div>
             </div>
         </div>
     </div>
@@ -62,10 +73,29 @@
         <div class="content">
             <div class="content--container">
                 <h2>{{heading}}</h2>
-                {{# content}}
-                    <p>{{paragraph}}</p>
-                {{/}}
+                <div class="contentLine--container">
+                    {{# content}}
+                        <div class="contentLine">
+                            <a href="{{socialLink}}">
+                                <img src="{{socialIcon}}" alt="">
+                                <p>{{contact}}</p>
+                            </a>
+                        </div>
+                    {{/}}
+                </div>
             </div>
         </div>
+
+       <!--  {{ #footer }}
+            <a href="dominichacking.bitbucket.io" class="footer">{{copyright}}</a>
+        {{/}} -->
     </div>
 {{/}}
+
+
+
+
+
+
+
+

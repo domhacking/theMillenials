@@ -15,59 +15,137 @@
 	"section1": [
 		{
 			"mainLogo" : "../images/The-Millennials---PNG-01_03.png",
-			"headingSubContent": "Cos we are worth it"
+			// "headingSubContent": "Cos we are worth it"
 		}
 	],
 
 
 	"section2": [
 		{
-			"heading" 		: "Bla Bla Blas",
+			"heading" 		: "What we do?",
 			"content":[
 				{
-					"paragraph" 	: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
+					"paragraph" 	: "The Millennials provide social media marketing for London’s restaurants, bars, pop up stalls and street food outlets.",
 				},
 				{
-					"paragraph" 	: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
+					"paragraph" 	: "Through Instagram, Twitter and Facebook, we provide an invaluable, high quality service at unbeatable value.",
 				},
 				{
-					"paragraph" 	: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
+					"paragraph" 	: "We do so through a sustainable, manageable and flexible business model, combining experience in working with some of the UK’s biggest brands, an extended knowledge of what new businesses need to survive, and an intimate understanding of our medium- social media.",
+				},
+				{
+					"paragraph" 	: "All this, working with Millennials, for Millennials, to Millennials.",
 				}
 			],
 		}
 	],
 
-	section3: [
+	"section3": [
 		{
-		"imageOneLiner" : "Power to people",
-		"subOneLiner"	: "finger tips of millions"
+		"imageOneLiner" : "Power of Social",
+		"content"		: [
+				{
+					"subOneLiner" 	: "18 to 30 year olds spend 65% more on dining out than couples with children."
+				},
+				{
+					"subOneLiner"	: "and"
+				},
+				{
+					"subOneLiner"	: "On average they spend 3.8 hours a day on social media"
+				}
+			]
 		}
 	],
 
-	section4: [
+	"section4": [
 		{
 			"heading"		: "social today",
+			"content"		: [
+				{
+					"socialIcon"	: "../images/Facebook-icon.png",
+					"socialHeading"	: "Facebook",
+					"socialContent"	: [
+						{
+							"paragraph"	: "Creating a separate Facebook page solely for your restaurant is invaluable and having a fan page leads to brand recognition and loyalty"
+						},
+						{
+							"paragraph"	: "You can give your Facebook fans incentives to visit your enterprise through competitions, fan only offers and discounts."
+						}
+					]
+				},
+				{
+					"socialIcon"	: "../images/Instagram-icon.png",
+					"socialHeading"	: "Instagram",
+					"socialContent"	: [
+						{
+							"paragraph"	: "There are 300 million active monthly users. Instragram content is 58 times more engagement than other social media"
+						},
+						{
+							"paragraph"	: "Only 2% of small businesses are currently embracing Instagram, giving them an advantage over their competitors."
+						}
 
-			"facbookImage" 	: "../images/section1-background.jpeg",
-			"facbook" 		: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
-			"instagramImage": "../images/section1-background.jpeg",
-			"instagram" 	: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
-			"twitterImage" 	: "../images/section1-background.jpeg",
-			"twitter" 		: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
+					]
+				},
+				{
+					"socialIcon"	: "../images/Twitter-icon.png",
+					"socialHeading"	: "Twitter",
+					"socialContent"	: [
+						{
+							"paragraph"	: "Twitter gives our clients a unique opportunity, an opportunity to communicate with their customers and competitors, publish real time information and  republish relevant content."
+						},
+						{
+							"paragraph"	: "It’s a conversational, urban-ironic medium that allows our clients to have a savvy, personal voice that suits the tastes of their target market."
+						},
 
+					]
+				},
+			]
 		}
-
 	],
 
-	section5: [
+	"section5": [
 		{
-			"heading" 		: "another section",
+			"heading" 		: "Contact",
+			"content"		: [
+				{
+					"socialLink"	: "#",
+					"socialIcon"	: "../images/mail-icon.png",
+					"contact" 		: "matt@mymillennials.co.uk"
+				},
+				{
+					"socialLink"	: "#",
+					"socialIcon"	: "../images/mail-icon.png",
+					"contact" 		: "07702 235 943"
+				},
+				{
+					"socialLink"	: "http//:www.facebook.com",
+					"socialIcon"	: "../images/Instagram-icon.png",
+					"contact" 		: "@mymillennials"
+				},
+				{
+					"socialLink"	: "http//:www.facebook.com",
+					"socialIcon"	: "../images/Twitter-icon.png",
+					"contact" 		: "@mymillennials"
+				},
+				{
+					"socialLink"	: "http//:www.facebook.com",
+					"socialIcon"	: "../images/Facebook-icon.png",
+					"contact" 		: "www.facebook.com/my_millenials"
+				},
 
-			"email"			: "lkdasfj",
-			"tel"			: "6456464",
-			"twitter"		: "6456464"
-		}
 
-	]
+			],
 
+			"footer":
+				{
+
+					"copyright"		: "HACKING THE DEVELOPMENT © ",
+				}
+		},
+
+	],
 }
+
+
+
+

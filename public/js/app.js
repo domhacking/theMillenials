@@ -28365,62 +28365,141 @@ module.exports={
 	"section1": [
 		{
 			"mainLogo" : "../images/The-Millennials---PNG-01_03.png",
-			"headingSubContent": "Cos we are worth it"
+			// "headingSubContent": "Cos we are worth it"
 		}
 	],
 
 
 	"section2": [
 		{
-			"heading" 		: "Bla Bla Blas",
+			"heading" 		: "What we do?",
 			"content":[
 				{
-					"paragraph" 	: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
+					"paragraph" 	: "The Millennials provide social media marketing for London’s restaurants, bars, pop up stalls and street food outlets.",
 				},
 				{
-					"paragraph" 	: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
+					"paragraph" 	: "Through Instagram, Twitter and Facebook, we provide an invaluable, high quality service at unbeatable value.",
 				},
 				{
-					"paragraph" 	: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
+					"paragraph" 	: "We do so through a sustainable, manageable and flexible business model, combining experience in working with some of the UK’s biggest brands, an extended knowledge of what new businesses need to survive, and an intimate understanding of our medium- social media.",
+				},
+				{
+					"paragraph" 	: "All this, working with Millennials, for Millennials, to Millennials.",
 				}
 			],
 		}
 	],
 
-	section3: [
+	"section3": [
 		{
-		"imageOneLiner" : "Power to people",
-		"subOneLiner"	: "finger tips of millions"
+		"imageOneLiner" : "Power of Social",
+		"content"		: [
+				{
+					"subOneLiner" 	: "18 to 30 year olds spend 65% more on dining out than couples with children."
+				},
+				{
+					"subOneLiner"	: "and"
+				},
+				{
+					"subOneLiner"	: "On average they spend 3.8 hours a day on social media"
+				}
+			]
 		}
 	],
 
-	section4: [
+	"section4": [
 		{
 			"heading"		: "social today",
+			"content"		: [
+				{
+					"socialIcon"	: "../images/Facebook-icon.png",
+					"socialHeading"	: "Facebook",
+					"socialContent"	: [
+						{
+							"paragraph"	: "Creating a separate Facebook page solely for your restaurant is invaluable and having a fan page leads to brand recognition and loyalty"
+						},
+						{
+							"paragraph"	: "You can give your Facebook fans incentives to visit your enterprise through competitions, fan only offers and discounts."
+						}
+					]
+				},
+				{
+					"socialIcon"	: "../images/Instagram-icon.png",
+					"socialHeading"	: "Instagram",
+					"socialContent"	: [
+						{
+							"paragraph"	: "There are 300 million active monthly users. Instragram content is 58 times more engagement than other social media"
+						},
+						{
+							"paragraph"	: "Only 2% of small businesses are currently embracing Instagram, giving them an advantage over their competitors."
+						}
 
-			"facbookImage" 	: "../images/section1-background.jpeg",
-			"facbook" 		: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
-			"instagramImage": "../images/section1-background.jpeg",
-			"instagram" 	: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
-			"twitterImage" 	: "../images/section1-background.jpeg",
-			"twitter" 		: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not",
+					]
+				},
+				{
+					"socialIcon"	: "../images/Twitter-icon.png",
+					"socialHeading"	: "Twitter",
+					"socialContent"	: [
+						{
+							"paragraph"	: "Twitter gives our clients a unique opportunity, an opportunity to communicate with their customers and competitors, publish real time information and  republish relevant content."
+						},
+						{
+							"paragraph"	: "It’s a conversational, urban-ironic medium that allows our clients to have a savvy, personal voice that suits the tastes of their target market."
+						},
 
+					]
+				},
+			]
 		}
-
 	],
 
-	section5: [
+	"section5": [
 		{
-			"heading" 		: "another section",
+			"heading" 		: "Contact",
+			"content"		: [
+				{
+					"socialLink"	: "#",
+					"socialIcon"	: "../images/mail-icon.png",
+					"contact" 		: "matt@mymillennials.co.uk"
+				},
+				{
+					"socialLink"	: "#",
+					"socialIcon"	: "../images/mail-icon.png",
+					"contact" 		: "07702 235 943"
+				},
+				{
+					"socialLink"	: "http//:www.facebook.com",
+					"socialIcon"	: "../images/Instagram-icon.png",
+					"contact" 		: "@mymillennials"
+				},
+				{
+					"socialLink"	: "http//:www.facebook.com",
+					"socialIcon"	: "../images/Twitter-icon.png",
+					"contact" 		: "@mymillennials"
+				},
+				{
+					"socialLink"	: "http//:www.facebook.com",
+					"socialIcon"	: "../images/Facebook-icon.png",
+					"contact" 		: "www.facebook.com/my_millenials"
+				},
 
-			"email"			: "lkdasfj",
-			"tel"			: "6456464",
-			"twitter"		: "6456464"
-		}
 
-	]
+			],
 
+			"footer":
+				{
+
+					"copyright"		: "HACKING THE DEVELOPMENT © ",
+				}
+		},
+
+	],
 }
+
+
+
+
+
 },{}],8:[function(require,module,exports){
 var Ractive = require('ractive');
 
@@ -28450,7 +28529,7 @@ modules['ui-nav'] = require('./nav/nav.js');modules['ui-sections'] = require('./
 module.exports = modules;
 
 },{"./nav/nav.js":11,"./sections/sections.js":13}],10:[function(require,module,exports){
-module.exports={"v":3,"t":[{"t":7,"e":"div","a":{"class":"nav"},"f":[{"t":7,"e":"ul","f":[{"t":7,"e":"div","a":{"class":"nav-logo"}}," ",{"t":4,"f":[{"t":7,"e":"li","f":[{"t":2,"r":"navItem"}]}],"n":52,"r":"nav"}]}]}]}
+module.exports={"v":3,"t":[{"t":7,"e":"div","a":{"class":"nav"},"f":[{"t":7,"e":"div","a":{"class":"nav-logo"}}," ",{"t":7,"e":"ul","f":[{"t":4,"f":[{"t":7,"e":"li","f":[{"t":7,"e":"a","a":{"href":["#",{"t":2,"r":"navItem"}]},"f":[{"t":2,"r":"navItem"}]}]}],"n":52,"r":"nav"}]}]}]}
 },{}],11:[function(require,module,exports){
 /**
  * @module:   nav
@@ -28470,7 +28549,7 @@ module.exports = Module.extend({
 });
 
 },{"../../data/content.json":7,"../abstract-module":8,"./nav.html":10}],12:[function(require,module,exports){
-module.exports={"v":3,"t":[{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section1 fixed-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h1","a":{"alt":"The Millenials"},"f":[{"t":7,"e":"img","a":{"src":[{"t":2,"r":"mainLogo"}],"alt":""}}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"headingSubContent"}]}]}]}," ",{"t":7,"e":"div","a":{"class":"arrow"},"f":["arrow"]}]}],"r":"section1"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section2 scrolling-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"heading"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"paragraph"}]}],"r":"content"}," ",{"t":7,"e":"div","a":{"class":"section--image"}}]}]}]}],"r":"section2"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section3 fixed-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"imageOneLiner"}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"subOneLiner"}]}]}]}]}],"r":"section3"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section4 scrolling-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"heading"}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"facebookImage"}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"facebook"}]}]}]}]}],"r":"section4"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section5 fixed-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"heading"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"paragraph"}]}],"r":"content"}]}]}]}],"r":"section5"}]}
+module.exports={"v":3,"t":[{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section1 fixed-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h1","a":{"alt":"The Millenials"},"f":[{"t":7,"e":"img","a":{"src":[{"t":2,"r":"mainLogo"}],"alt":""}}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"headingSubContent"}]}]}]}," ",{"t":7,"e":"div","a":{"class":"arrow"}}]}],"r":"section1"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section2 scrolling-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"heading"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"paragraph"}]}],"r":"content"}," ",{"t":7,"e":"div","a":{"class":"section--image"}}]}]}]}],"r":"section2"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section3 fixed-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"imageOneLiner"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"subOneLiner"}]}],"r":"content"}]}]}]}],"r":"section3"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section4 scrolling-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"heading"}]}," ",{"t":7,"e":"div","a":{"class":"socialContainer"},"f":[{"t":4,"f":[{"t":7,"e":"div","a":{"class":"social"},"f":[{"t":7,"e":"img","a":{"src":[{"t":2,"r":"socialIcon"}],"alt":""}}," ",{"t":7,"e":"h3","f":[{"t":2,"r":"socialHeading"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"paragraph"}]}],"r":"socialContent"}]}],"r":"content"}]}]}]}]}],"r":"section4"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section5 fixed-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"heading"}]}," ",{"t":7,"e":"div","a":{"class":"contentLine--container"},"f":[{"t":4,"f":[{"t":7,"e":"div","a":{"class":"contentLine"},"f":[{"t":7,"e":"a","a":{"href":[{"t":2,"r":"socialLink"}]},"f":[{"t":7,"e":"img","a":{"src":[{"t":2,"r":"socialIcon"}],"alt":""}}," ",{"t":7,"e":"p","f":[{"t":2,"r":"contact"}]}]}]}],"r":"content"}]}]}]}," "]}],"r":"section5"}]}
 },{}],13:[function(require,module,exports){
 /**
  * @module:   sections
