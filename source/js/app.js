@@ -1,6 +1,5 @@
 var domready = require('domready');
-var fullpage = require('fullpage.js');
-var jquery = require('jquery');
+var $ = require('jquery');
 
 
 var app = {
@@ -26,4 +25,17 @@ domready(function() {
   app.init();
   app.render();
 
+});
+
+
+$(document).ready(function() {
+    $(".navButton").on("click", function( e ) {
+        console.log('test');
+
+        e.preventDefault();
+
+        $("body, html").animate({
+            scrollTop: $( $(this).attr('href') ).offset().top}, 700);
+
+    });
 });

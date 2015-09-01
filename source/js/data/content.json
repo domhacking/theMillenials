@@ -8,6 +8,9 @@
 		},
 		{
 			"navItem": "contact"
+		},
+		{
+			"navItem": "random"
 		}
 	],
 
@@ -41,20 +44,20 @@
 	],
 
 	"section3": [
-		// {
-		// "imageOneLiner" : "Power of Social",
-		// "content"		: [
-		// 		{
-		// 			"subOneLiner" 	: "18 to 30 year olds spend 65% more on dining out than couples with children."
-		// 		},
-		// 		{
-		// 			"subOneLiner"	: "and"
-		// 		},
-		// 		{
-		// 			"subOneLiner"	: "On average they spend 3.8 hours a day on social media"
-		// 		}
-		// 	]
-		// }
+		{
+		"imageOneLiner" : "Power of Social",
+		"content"		: [
+				{
+					"subOneLiner" 	: "18 to 30 year olds spend 65% more on dining out than couples with children."
+				},
+				{
+					"subOneLiner"	: "and"
+				},
+				{
+					"subOneLiner"	: "On average they spend 3.8 hours a day on social media"
+				}
+			]
+		}
 	],
 
 	"section4": [

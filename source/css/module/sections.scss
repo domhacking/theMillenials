@@ -96,8 +96,8 @@
 	}
 
 	&.section2{
-		background: url('../images/fadedBlueBackground.jpg') no-repeat;
-		background-size: cover;
+		// background: url('../images/fadedBlueBackground.jpg') no-repeat;
+		// background-size: cover;
 	}
 
 	&.section3{
@@ -107,6 +107,20 @@
 
 		p{
 			color: $white;
+		}
+	}
+
+	&.section3b{
+		.content{
+			.imgRight{
+				background-image: url('../images/hummous.jpg');
+				height: 100%;
+				background-repeat: none;
+				width: 50%;
+				position: absolute;
+				right: 0;
+				// top: 0;
+			}
 		}
 	}
 

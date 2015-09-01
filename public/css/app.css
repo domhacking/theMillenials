@@ -941,15 +941,19 @@ html, body {
       left: 50%;
       margin-left: -15px;
       color: #ffffff; }
-  .section.section2 {
-    background: url("../images/fadedBlueBackground.jpg") no-repeat;
-    background-size: cover; }
   .section.section3 {
     background-image: url("../images/grapes.jpg");
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%; }
     .section.section3 p {
       color: #ffffff; }
+  .section.section3b .content .imgRight {
+    background-image: url("../images/hummous.jpg");
+    height: 100%;
+    background-repeat: none;
+    width: 50%;
+    position: absolute;
+    right: 0; }
   .section.section5 {
     background-image: url("../images/cd-background-2.jpg"); }
     .section.section5 .content {

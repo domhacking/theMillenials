@@ -5,10 +5,10 @@
 -->
 
 <div class="nav">
-	<div class="nav-logo"></div>
+	<div class="nav-logo navButton" href="#home"></div>
     <ul>
     	{{#each nav}}
-            <li><a href="#{{navItem}}">{{navItem}}</a></li>
+            <li><a class="navButton" href="#{{navItem}}">{{navItem}}</a></li>
         {{/each}}
     </ul>
 </div>
