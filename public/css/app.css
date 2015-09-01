@@ -816,14 +816,15 @@ html, body {
  * @html:     ./source/js/module/nav/nav.html
  */
 .nav {
-  background-color: #313132;
+  background-color: rgba(49, 49, 50, 0.6);
   height: 40px;
   margin: 0;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 5; }
+  z-index: 5;
+  border-bottom: 1px solid #313132; }
   .nav .nav-logo {
     background: url("../images/navLogo.png") no-repeat;
     background-size: 100%;
