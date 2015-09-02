@@ -947,34 +947,42 @@ html, body {
     height: 100%; }
     .section.section3 p {
       color: #ffffff; }
-  .section.section3b .content .imgRight {
-    background-image: url("../images/hummous.jpg");
-    height: 100%;
-    background-repeat: none;
-    width: 50%;
-    position: absolute;
-    right: 0; }
-  .section.section5 {
+  .section.section4 {
+    padding: 0; }
+    .section.section4 .content {
+      display: block; }
+      .section.section4 .content .content--container {
+        width: 50%;
+        display: inline-block; }
+      .section.section4 .content .imgRight {
+        background-image: url("../images/hummous.jpg");
+        height: 100%;
+        display: inline-block;
+        background-repeat: none;
+        width: 50%;
+        position: absolute;
+        right: 0; }
+  .section.section6 {
     background-image: url("../images/cd-background-2.jpg"); }
-    .section.section5 .content {
+    .section.section6 .content {
       width: 100%; }
-      .section.section5 .content .contentLine--container .contentLine {
+      .section.section6 .content .contentLine--container .contentLine {
         margin: 0 auto;
         display: block;
         width: 80%;
         text-align: center; }
-        .section.section5 .content .contentLine--container .contentLine a {
+        .section.section6 .content .contentLine--container .contentLine a {
           color: #ffffff;
           display: inline-block;
           text-decoration: none; }
-          .section.section5 .content .contentLine--container .contentLine a img {
+          .section.section6 .content .contentLine--container .contentLine a img {
             display: inline-block;
             height: 20px;
             width: auto; }
-          .section.section5 .content .contentLine--container .contentLine a p {
+          .section.section6 .content .contentLine--container .contentLine a p {
             display: inline-block;
             margin-bottom: 10px; }
-    .section.section5 .footer {
+    .section.section6 .footer {
       width: 100%;
       text-decoration: none;
       color: black;

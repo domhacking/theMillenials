@@ -110,11 +110,19 @@
 		}
 	}
 
-	&.section3b{
+	&.section4{
+		padding: 0;
 		.content{
+			display: block;
+			.content--container{
+				width: 50%;
+				display: inline-block;
+			}
+
 			.imgRight{
 				background-image: url('../images/hummous.jpg');
 				height: 100%;
+				display: inline-block;
 				background-repeat: none;
 				width: 50%;
 				position: absolute;
@@ -125,6 +133,10 @@
 	}
 
 	&.section5{
+
+	}
+
+	&.section6{
 		background-image: url('../images/cd-background-2.jpg');
 
 		.content{

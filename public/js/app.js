@@ -25968,13 +25968,17 @@ module.exports={
 		}
 	],
 
-	"section4": [
+	"section4":[
+		{
+		"headingContent1":	"London’s millennials spend 65% more on dining out than any other generation.",
+		"headingContent2":	"On average they spend 3.8 hours a day on social media.",
+		"headingContent3":  "You may flip the best burgers in Soho, but that does not mean that you have the time, resources or know-how to run your own social media or PR, and no one will know about your sliders if you're not shouting about them.",
+		}
+	],
+
+	"section5": [
 		{
 			// "heading"		: "social today",
-
-			"headingContent1":	"London’s millennials spend 65% more on dining out than any other generation.",
-			"headingContent2":	"On average they spend 3.8 hours a day on social media.",
-			"headingContent3":  "You may flip the best burgers in Soho, but that does not mean that you have the time, resources or know-how to run your own social media or PR, and no one will know about your sliders if you're not shouting about them.",
 
 			"content"		: [
 				{
@@ -26028,7 +26032,7 @@ module.exports={
 		}
 	],
 
-	"section5": [
+	"section6": [
 		{
 			"heading" 		: "Contact",
 			"subHeading"	: "The Millennials speak to London's foodies in a way they understand. Drop us a line for your free consultation.",
@@ -26125,7 +26129,7 @@ module.exports = Module.extend({
 });
 
 },{"../../data/content.json":5,"../abstract-module":6,"./nav.html":8}],10:[function(require,module,exports){
-module.exports={"v":3,"t":[{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section1 fixed-bg","id":"home"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h1","a":{"alt":"The Millenials"},"f":[{"t":7,"e":"img","a":{"src":[{"t":2,"r":"mainLogo"}],"alt":""}}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"headingSubContent"}]}]}]}," ",{"t":7,"e":"div","a":{"class":"arrow"}}]}],"r":"section1"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section2 scrolling-bg","id":"about"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"heading"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"paragraph"}]}],"r":"content"}," ",{"t":7,"e":"div","a":{"class":"section--image"}}]}]}]}],"r":"section2"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section3 fixed-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"imageOneLiner"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"subOneLiner"}]}],"r":"content"}]}]}]}],"r":"section3"},{"t":7,"e":"div","a":{"class":"section3b section"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[]}," ",{"t":7,"e":"div","a":{"class":"imgRight"}}]}]}," ",{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section4 scrolling-bg","id":"how"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[" ",{"t":7,"e":"div","a":{"class":"socialContainer"},"f":[{"t":7,"e":"p","f":[{"t":2,"r":"headingContent1"}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"headingContent2"}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"headingContent3"}]}," ",{"t":4,"f":[{"t":7,"e":"div","a":{"class":"social"},"f":[{"t":7,"e":"img","a":{"src":[{"t":2,"r":"socialIcon"}],"alt":""}}," ",{"t":7,"e":"h3","f":[{"t":2,"r":"socialHeading"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"paragraph"}]}],"r":"socialContent"}]}],"r":"content"}]}]}]}]}],"r":"section4"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section5 fixed-bg","id":"contact"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[" ",{"t":7,"e":"div","a":{"class":"contentLine--container"},"f":[{"t":7,"e":"p","f":[{"t":2,"r":"subHeading"}]}," ",{"t":4,"f":[{"t":7,"e":"div","a":{"class":"contentLine"},"f":[{"t":7,"e":"a","a":{"href":[{"t":2,"r":"socialLink"}]},"f":[{"t":7,"e":"img","a":{"src":[{"t":2,"r":"socialIcon"}],"alt":""}}," ",{"t":7,"e":"p","f":[{"t":2,"r":"contact"}]}]}]}],"r":"content"}]}]}]}," "]}],"r":"section5"}]}
+module.exports={"v":3,"t":[{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section1 fixed-bg","id":"home"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h1","a":{"alt":"The Millenials"},"f":[{"t":7,"e":"img","a":{"src":[{"t":2,"r":"mainLogo"}],"alt":""}}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"headingSubContent"}]}]}]}," ",{"t":7,"e":"div","a":{"class":"arrow"}}]}],"r":"section1"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section2 scrolling-bg","id":"about"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"heading"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"paragraph"}]}],"r":"content"}," ",{"t":7,"e":"div","a":{"class":"section--image"}}]}]}]}],"r":"section2"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section3 fixed-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"h2","f":[{"t":2,"r":"imageOneLiner"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"subOneLiner"}]}],"r":"content"}]}]}]}],"r":"section3"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section4 section scrolling-bg"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[{"t":7,"e":"p","f":[{"t":2,"r":"headingContent1"}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"headingContent2"}]}," ",{"t":7,"e":"p","f":[{"t":2,"r":"headingContent3"}]}]}," ",{"t":7,"e":"div","a":{"class":"imgRight"}}]}]}],"r":"section4"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section5 scrolling-bg","id":"how"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[" ",{"t":7,"e":"div","a":{"class":"socialContainer"},"f":[{"t":4,"f":[{"t":7,"e":"div","a":{"class":"social"},"f":[{"t":7,"e":"img","a":{"src":[{"t":2,"r":"socialIcon"}],"alt":""}}," ",{"t":7,"e":"h3","f":[{"t":2,"r":"socialHeading"}]}," ",{"t":4,"f":[{"t":7,"e":"p","f":[{"t":2,"r":"paragraph"}]}],"r":"socialContent"}]}],"r":"content"}]}]}]}]}],"r":"section5"},{"t":4,"f":[{"t":7,"e":"div","a":{"class":"section section6 fixed-bg","id":"contact"},"f":[{"t":7,"e":"div","a":{"class":"content"},"f":[{"t":7,"e":"div","a":{"class":"content--container"},"f":[" ",{"t":7,"e":"div","a":{"class":"contentLine--container"},"f":[{"t":7,"e":"p","f":[{"t":2,"r":"subHeading"}]}," ",{"t":4,"f":[{"t":7,"e":"div","a":{"class":"contentLine"},"f":[{"t":7,"e":"a","a":{"href":[{"t":2,"r":"socialLink"}]},"f":[{"t":7,"e":"img","a":{"src":[{"t":2,"r":"socialIcon"}],"alt":""}}," ",{"t":7,"e":"p","f":[{"t":2,"r":"contact"}]}]}]}],"r":"content"}]}]}]}," "]}],"r":"section6"}]}
 },{}],11:[function(require,module,exports){
 /**
  * @module:   sections
