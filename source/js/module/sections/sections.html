@@ -33,18 +33,9 @@
     </div>
 {{/}}
 
-{{ # section3 }}
-    <div class="section section3 fixed-bg">
-        <div class="content">
-            <div class="content--container">
-                <h2>{{imageOneLiner}}</h2>
-                {{# content }}
-                    <p>{{subOneLiner}}</p>
-                {{/}}
-            </div>
-        </div>
-    </div>
-{{/}}
+
+<div class="section section3 fixed-bg"></div>
+
 
 {{# section4 }}
 <div class="section4 section scrolling-bg">
@@ -64,17 +55,24 @@
 {{ # section5 }}
     <div class="section section5 scrolling-bg" id="how">
         <div class="content">
-            <div class="content--container">
-                <!-- <h2>{{heading}}</h2> -->
-                <div class="socialContainer">
-               
+            <div class="top--container">
+                <div class="top--container__content">
+                    <p>{{headingContent1}}</p>
+                    <p>{{headingContent2}}</p>
+                    <p>{{headingContent3}}</p>
+                </div>
+            </div>
+
+            <div class="bottom--socialContainer">
+                <div class="bottom">
                     {{#content}}
                         <div class="social {{socialHeading}}">
                             <img src="{{socialIcon}}" id="{{socialHeading}}"alt="">
                             <h3>{{socialHeading}}</h3>
-                            {{#socialContent}}
-                                <p>{{paragraph}}</p>
-                            {{/}}
+                                {{#socialContent}}
+                                    <p>{{paragraph}}</p>
+                                {{/}}
+
                         </div>
                     {{/}}
                 </div>
@@ -89,7 +87,7 @@
             <div class="content--container">
                 <!-- <h2>{{heading}}</h2> -->
                 <div class="contentLine--container">
-                    <p>{{subHeading}}</p>
+                    <h3>{{subHeading}}</h3>
                     {{# content}}
                         <div class="contentLine">
                             <a href="{{socialLink}}">

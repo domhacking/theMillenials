@@ -15,12 +15,14 @@
 	p{
 		text-align: center;
 		font-family: $font-content;
+		color: $color-font;
 	}
 
 	h2{
 		text-align: center;
 		font-family: $font-header;
 		text-decoration: underline;
+		color: $color-heading;
 	}
 
 	h3{
@@ -39,10 +41,6 @@
 		min-height: 100%;
 		box-shadow: 0 0 50px rgba(#000, 0.5);
 		z-index: index($bg-elements, scrolling-bg);
-
-		h2{
-			color: $grey-background;
-		}
 	}
 
 	&.fixed-bg{
@@ -96,14 +94,14 @@
 	}
 
 	&.section2{
-		// background: url('../images/fadedBlueBackground.jpg') no-repeat;
-		// background-size: cover;
+
 	}
 
 	&.section3{
 		background-image: url('../images/grapes.jpg');
 		background-color: rgba(0,0,0,0.5);
 		height: 100%;
+		min-height: 100;
 
 		p{
 			color: $white;
@@ -219,13 +217,42 @@
 @media screen and (min-width: 550px){
 	.section{
 
+		h2{
+
+		}
+
+		p{
+			font-size: 17px;
+		}
+
+		&.section3{
+			p{
+				color: $millenialsYellow;
+				font-weight: bold;
+				font-size: 20px;
+			}
+		}
+
 		&.section4{
 		padding: 0;
 			.content{
 				display: block;
+				height: 100%;
+				text-align: center;
+				margin-left: -325px;
+
+
+				&:before{
+					content: "";
+					display: inline-block;
+					vertical-align: middle;
+					height: 100%;
+				}
+
 				.content--container{
 					width: 50%;
 					display: inline-block;
+					vertical-align: middle;
 				}
 
 				.imgRight{
@@ -240,18 +267,35 @@
 		}
 
 		&.section5{
-			.content--container{
-				max-width: none;
-
+			height: 100%;
+			.top--container{
+				display: block;
 				width: 100%;
-				.socialContainer{
-					text-align: center;
+
+				.top--container__content{
+					max-width: 900px;
+					width: 100%;
+					height: 50%;
+					margin: 0 auto;
+				}
+			}
+
+			.bottom--socialContainer{
+				text-align: center;
+				height: 50%;
+
+				.bottom{
+					position: absolute;
+					bottom: 0;
+
+
 					.social{
 						display: inline-block;
 						width: 25%;
-						vertical-align: top;
+						min-height: 500px;
+						vertical-align: bottom;
 						padding: 50px 20px;
-						padding-top: 0;
+
 
 						img{
 							padding-bottom: 15px;
@@ -259,10 +303,23 @@
 
 						p{
 							text-align: left;
+							color: $white;
 						}
 					}
 				}
+
 			}
+
+		}
+
+		&.section6{
+		color:$millenialsYellow;
+			a{
+				p{
+					color:$millenialsYellow;
+				}
+			}
+
 		}
 	}
 }

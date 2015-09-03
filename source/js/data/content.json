@@ -46,31 +46,36 @@
 	"section3": [
 		{
 		"imageOneLiner" : "Power of Social",
-		"content"		: [
-				{
-					"subOneLiner" 	: "18 to 30 year olds spend 65% more on dining out than couples with children."
-				},
-				{
-					"subOneLiner"	: "and"
-				},
-				{
-					"subOneLiner"	: "On average they spend 3.8 hours a day on social media"
-				}
-			]
+		// "content"		: [
+		// 		{
+		// 			"subOneLiner" 	: "18 to 30 year olds spend 65% more on dining out than couples with children."
+		// 		},
+		// 		{
+		// 			"subOneLiner"	: "and"
+		// 		},
+		// 		{
+		// 			"subOneLiner"	: "On average they spend 3.8 hours a day on social media"
+		// 		}
+		// 	]
 		}
 	],
 
-	"section4":[
-		{
-		"headingContent1":	"London’s millennials spend 65% more on dining out than any other generation.",
-		"headingContent2":	"On average they spend 3.8 hours a day on social media.",
-		"headingContent3":  "You may flip the best burgers in Soho, but that does not mean that you have the time, resources or know-how to run your own social media or PR, and no one will know about your sliders if you're not shouting about them.",
-		}
-	],
+	// "section4":[
+	// 	{
+	// 	"headingContent1":	"London’s millennials spend 65% more on dining out than any other generation.",
+	// 	"headingContent2":	"On average they spend 3.8 hours a day on social media.",
+	// 	"headingContent3":  "You may flip the best burgers in Soho, but that does not mean that you have the time, resources or know-how to run your own social media or PR, and no one will know about your sliders if you're not shouting about them.",
+	// 	}
+	// ],
 
 	"section5": [
 		{
 			// "heading"		: "social today",
+
+		"headingContent1":	"London’s millennials spend 65% more on dining out than any other generation.",
+		"headingContent2":	"On average they spend 3.8 hours a day on social media.",
+		"headingContent3":  "You may flip the best burgers in Soho, but that does not mean that you have the time, resources or know-how to run your own social media or PR, and no one will know about your sliders if you're not shouting about them.",
+
 
 			"content"		: [
 				{

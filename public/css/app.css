@@ -565,7 +565,7 @@ html {
   /* [1] */
   line-height: 1.71429;
   /* [1] */
-  background-color: #ffffff;
+  background-color: #F5FAFA;
   color: #151515;
   overflow-y: scroll;
   /* [2] */
@@ -824,7 +824,7 @@ html, body {
   left: 0;
   width: 100%;
   z-index: 5;
-  border-bottom: 1px solid #313132; }
+  border-bottom: 1px solid #003366; }
   .nav .nav-logo {
     background: url("../images/navLogo.png") no-repeat;
     background-size: 100%;
@@ -890,11 +890,13 @@ html, body {
   z-index: 1; }
   .section p {
     text-align: center;
-    font-family: "Signika-Regular"; }
+    font-family: "Signika-Regular";
+    color: #003366; }
   .section h2 {
     text-align: center;
     font-family: "Signika-Bold";
-    text-decoration: underline; }
+    text-decoration: underline;
+    color: #000044; }
   .section h3 {
     text-align: center; }
   .section img {
@@ -906,8 +908,6 @@ html, body {
     min-height: 100%;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     z-index: 2; }
-    .section.scrolling-bg h2 {
-      color: #313132; }
   .section.fixed-bg {
     min-height: 100%;
     background-size: cover;
@@ -944,7 +944,8 @@ html, body {
   .section.section3 {
     background-image: url("../images/grapes.jpg");
     background-color: rgba(0, 0, 0, 0.5);
-    height: 100%; }
+    height: 100%;
+    min-height: 100; }
     .section.section3 p {
       color: #ffffff; }
   .section.section4 .content .imgRight {
@@ -1003,13 +1004,28 @@ html, body {
       margin: 0 auto; }
 
 @media screen and (min-width: 550px) {
+  .section p {
+    font-size: 17px; }
+  .section.section3 p {
+    color: #FFFB7F;
+    font-weight: bold;
+    font-size: 20px; }
   .section.section4 {
     padding: 0; }
     .section.section4 .content {
-      display: block; }
+      display: block;
+      height: 100%;
+      text-align: center;
+      margin-left: -325px; }
+      .section.section4 .content:before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%; }
       .section.section4 .content .content--container {
         width: 50%;
-        display: inline-block; }
+        display: inline-block;
+        vertical-align: middle; }
       .section.section4 .content .imgRight {
         background: url("../images/hummous.jpg") no-repeat 100% 100%;
         height: 100%;
@@ -1017,21 +1033,37 @@ html, body {
         width: 50%;
         position: absolute;
         right: 0; }
-  .section.section5 .content--container {
-    max-width: none;
-    width: 100%; }
-    .section.section5 .content--container .socialContainer {
-      text-align: center; }
-      .section.section5 .content--container .socialContainer .social {
-        display: inline-block;
-        width: 25%;
-        vertical-align: top;
-        padding: 50px 20px;
-        padding-top: 0; }
-        .section.section5 .content--container .socialContainer .social img {
-          padding-bottom: 15px; }
-        .section.section5 .content--container .socialContainer .social p {
-          text-align: left; } }
+  .section.section5 {
+    height: 100%; }
+    .section.section5 .top--container {
+      display: block;
+      width: 100%; }
+      .section.section5 .top--container .top--container__content {
+        max-width: 900px;
+        width: 100%;
+        height: 50%;
+        margin: 0 auto; }
+    .section.section5 .bottom--socialContainer {
+      text-align: center;
+      height: 50%; }
+      .section.section5 .bottom--socialContainer .bottom {
+        position: absolute;
+        bottom: 0; }
+        .section.section5 .bottom--socialContainer .bottom .social {
+          display: inline-block;
+          width: 25%;
+          min-height: 500px;
+          vertical-align: bottom;
+          padding: 50px 20px; }
+          .section.section5 .bottom--socialContainer .bottom .social img {
+            padding-bottom: 15px; }
+          .section.section5 .bottom--socialContainer .bottom .social p {
+            text-align: left;
+            color: #ffffff; }
+  .section.section6 {
+    color: #FFFB7F; }
+    .section.section6 a p {
+      color: #FFFB7F; } }
 
 /*------------------------------------*    #SPACING
 \*------------------------------------*/
