@@ -947,23 +947,30 @@ html, body {
     height: 100%; }
     .section.section3 p {
       color: #ffffff; }
-  .section.section4 {
+  .section.section4 .content .imgRight {
+    display: none; }
+  .section.section5 {
     padding: 0; }
-    .section.section4 .content {
-      display: block; }
-      .section.section4 .content .content--container {
-        width: 50%;
-        display: inline-block; }
-      .section.section4 .content .imgRight {
-        background-image: url("../images/hummous.jpg");
-        height: 100%;
-        display: inline-block;
-        background-repeat: none;
-        width: 50%;
-        position: absolute;
-        right: 0; }
+    .section.section5 .social {
+      padding: 10px;
+      color: #ffffff;
+      border-bottom: 1px solid #ffffff; }
+      .section.section5 .social.Facebook {
+        background-color: #21407A; }
+      .section.section5 .social.Instagram {
+        background-color: #436E98; }
+      .section.section5 .social.Twitter {
+        background-color: #38A4E9; }
+      .section.section5 .social.PR {
+        background-color: #007D88; }
+      .section.section5 .social #PR {
+        height: 79px;
+        width: 64px; }
   .section.section6 {
-    background-image: url("../images/cd-background-2.jpg"); }
+    background-image: url("../images/cd-background-2.jpg");
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px; }
     .section.section6 .content {
       width: 100%; }
       .section.section6 .content .contentLine--container .contentLine {
@@ -972,7 +979,7 @@ html, body {
         width: 80%;
         text-align: center; }
         .section.section6 .content .contentLine--container .contentLine a {
-          color: #ffffff;
+          color: #FFFB7F;
           display: inline-block;
           text-decoration: none; }
           .section.section6 .content .contentLine--container .contentLine a img {
@@ -996,19 +1003,34 @@ html, body {
       margin: 0 auto; }
 
 @media screen and (min-width: 550px) {
-  .section.section4 .content--container {
-    max-width: 900px; }
-    .section.section4 .content--container .socialContainer {
+  .section.section4 {
+    padding: 0; }
+    .section.section4 .content {
+      display: block; }
+      .section.section4 .content .content--container {
+        width: 50%;
+        display: inline-block; }
+      .section.section4 .content .imgRight {
+        background: url("../images/hummous.jpg") no-repeat 100% 100%;
+        height: 100%;
+        display: inline-block;
+        width: 50%;
+        position: absolute;
+        right: 0; }
+  .section.section5 .content--container {
+    max-width: none;
+    width: 100%; }
+    .section.section5 .content--container .socialContainer {
       text-align: center; }
-      .section.section4 .content--container .socialContainer .social {
+      .section.section5 .content--container .socialContainer .social {
         display: inline-block;
         width: 25%;
         vertical-align: top;
         padding: 50px 20px;
         padding-top: 0; }
-        .section.section4 .content--container .socialContainer .social img {
+        .section.section5 .content--container .socialContainer .social img {
           padding-bottom: 15px; }
-        .section.section4 .content--container .socialContainer .social p {
+        .section.section5 .content--container .socialContainer .social p {
           text-align: left; } }
 
 /*------------------------------------*    #SPACING

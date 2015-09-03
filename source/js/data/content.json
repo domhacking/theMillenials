@@ -9,9 +9,9 @@
 		{
 			"navItem": "contact"
 		},
-		{
-			"navItem": "random"
-		}
+		// {
+		// 	"navItem": "random"
+		// }
 	],
 
 
@@ -112,7 +112,7 @@
 					]
 				},
 				{
-					"socialIcon"	: "../images/Twitter-icon.png",
+					"socialIcon"	: "../images/public-icon.png",
 					"socialHeading"	: "PR",
 					"socialContent"	: [
 						{
